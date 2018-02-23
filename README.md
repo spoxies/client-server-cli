@@ -1,6 +1,6 @@
 # client-server-cli
 
-Express server for client side.
+Express server to boost our templates development
 
 ## Getting Started
 
@@ -11,13 +11,15 @@ Express server for client side.
 
 ```	
 
-clientserver --src ./src --not-found pages-404.html --port 8080
+clientserver --p 8080 -n ./src/html/pages-404.html -v ./src/html -a ./src/assets -j ./src/js
 
 Basic options
 
--s, --src            Sources path
--n, --not-found      Not found page file
 -p, --port           Port
+-n, --not-found      Source path of not found page
+-v, --views          Source path of views
+-a, --assets         Source path of assets
+-j, --js             Source path of js
 
 
 ```
