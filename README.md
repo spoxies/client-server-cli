@@ -11,7 +11,7 @@ Express server to boost our templates development
 
 ```	
 
-clientserver --p 8080 -n ./src/html/pages-404.html -v ./src/html -a ./src/assets -j ./src/js
+clientserver --p 8080 -n src/html/pages-404.html -v src/html -a src/assets -j src/js
 
 Basic options
 
