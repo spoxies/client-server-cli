@@ -1,0 +1,29 @@
+{
+  "name": "@foxythemes/client-server-cli",
+  "version": "1.0.0",
+  "description": "Express server for client side",
+  "main": "lib/client-server-cli.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "bin": {
+    "clientserver": "./lib/client-server-cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foxythemes/client-server-cli.git"
+  },
+  "author": "Jhon Pérez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/foxythemes/client-server-cli/issues"
+  },
+  "homepage": "https://github.com/foxythemes/client-server-cli#readme",
+  "dependencies": {
+    "command-line-args": "^5.0.2",
+    "express": "^4.12.3"
+  }
+}
