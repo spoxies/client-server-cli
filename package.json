@@ -24,6 +24,7 @@
   "homepage": "https://github.com/foxythemes/client-server-cli#readme",
   "dependencies": {
     "command-line-args": "^5.0.2",
-    "express": "^4.12.3"
+    "express": "^4.12.3",
+    "opn": "^5.3.0"
   }
 }
