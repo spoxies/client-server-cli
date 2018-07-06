@@ -1,6 +1,6 @@
 {
   "name": "@foxythemes/client-server-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Express server to boost our templates development",
   "main": "lib/client-server-cli.js",
   "directories": {
