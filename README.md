@@ -19,6 +19,7 @@ Basic options
 -n, --not-found      Source path of not found page
 -v, --views          Source path of views
 -a, --assets         Source path of assets
+-s, --sass           Source path of sass files
 -j, --js             Source path of js
 
 
